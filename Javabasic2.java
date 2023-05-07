@@ -1,0 +1,8 @@
+public class Javabasic2 {
+    public static void main(String[] args) {
+        Scanner x=new Scanner(System.in);
+        System.out.println("Enter the number");
+        
+    }
+    
+}
