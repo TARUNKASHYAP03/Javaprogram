@@ -21,7 +21,7 @@ public class Armstrong {
             System.out.print(" is a armstrong number");
         }
         else{
-            System.out.print(" is not armstron number");
+            System.out.print(" is not armstrong number");
         }
         x.close();
     }
