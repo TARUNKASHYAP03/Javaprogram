@@ -1,4 +1,4 @@
-package RD.Function;
+package JavaProgram.Function;
 
 import java.util.Scanner;
 
