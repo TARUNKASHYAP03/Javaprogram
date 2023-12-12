@@ -4,10 +4,12 @@ import java.util.*;
 
 public class Multiplication {
     public static void table(int n) {
-        System.out.println("Multiplication table of " + n + " is : ");
-        for (int i = 1; i <= 10; i++) {
-            int mul = n * i;
-            System.out.println(n + " * " + i + " = " + mul);
+        System.out.println("Multiplication Table up to " + n + ":");
+        for (int i = 1; i <= 10; ++i) {
+            for (int j = 1; j <= n; ++j) {
+                System.out.printf("%4d", i * j); // Adjust the width based on the maximum result
+            }
+            System.out.println();
         }
     }
 
